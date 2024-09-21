@@ -1,6 +1,6 @@
 name: Windows build
 
-on: [push]
+on: [push, workflow_dispatch]
 
 env:
   build-dir: build
